@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // function greet(name) {
+        //     console.log(`Welcome ${name}`);
+        // }
+        // function notify(name) {
+        //     console.log(`Dear ${name}, your room will be ready in 30 minutes`);
+        // }
+        // function registerGuest(name, callback) {
+        //     console.log(`Registering ${name}!`);
+        //     callback(name);
+        // }
+        // registerGuest("Pawel", greet);
+        // registerGuest("Pawel", notify);
+
+    </script>
+
+    <script>
+//         function startTree() {
+//   console.log("Tree is growing!");
+  
+//   // Wywołanie callbacków (gałęzi)
+//   branch1();
+//   branch2();
+// }
+
+// function branch1() {
+//   console.log("Branch 1 is growing!");
+// }
+
+// function branch2() {
+//   console.log("Branch 2 is growing!");
+// }
+
+// startTree();
+/* 1. Funkcja startTree() to funkcja główna (root).
+
+ 2. Funkcja branch1() i branch2() to funkcje callbacki, które są wywoływane wewnątrz głównej funkcji. 
+ 
+ Gdy wywołasz startTree(), ona najpierw wykonuje swoje zadanie ("Tree is growing!").
+
+Następnie wywołuje dwie funkcje callback (branch1() i branch2()), które są jak gałęzie drzewa — wykonują swoje zadania po głównej funkcji.
+
+W ten sposób, główna funkcja (startTree) pozwala na rozgałęzienie działania w różne miejsca, wykonując zadania w różnych momentach (w tym przypadku, wywołując różne callbacki).
+
+
+*Funkcja wyższego rzędu to funkcja, która przyjmuje inne funkcje jako argumenty lub zwraca funkcję.
+
+*Callback to funkcja, która jest przekazywana do innej funkcji jako argument i wywoływana w jej ciele.
+
+*Przechowywanie funkcji w zmiennych pozwala na ich wywołanie, jak każdej innej wartości (np. liczby, ciągu znaków).
+
+*Callbacki pozwalają na asynchroniczne i elastyczne wykonywanie kodu, np. wywołując różne funkcje w różnych momentach w kodzie.
+
+*Asynchroniczne wykonanie pozwala na to, żeby kod nadal działał i nie blokował się, wykonując inne operacje, podczas gdy czekamy na zakończenie długotrwałej czynności.
+
+ 
+ */
+    </script>
+
+    <script>
+        // function sayHello(name) {
+        //     return `Hello ${name}!`;
+        // }
+        // const message = sayHello("Pawel");
+        // const funcPointer = sayHello;
+
+        // console.log(message);
+        // console.log(funcPointer("Bob"));
+    </script>
+    <script>
+        // function executeCallback(callback) {
+        //     console.log("Executing callback...");
+        //     callback();
+        // }
+        // function printMessage() {
+        //     console.log("Callback executed!");
+        // }
+        // executeCallback(printMessage);
+    </script>
+    <script>
+        // function registerUser(name, callback) {
+        //     console.log(`Registering user ${name}`);
+        //     callback(name);
+        // }
+        // function welcomeUser(name) {
+        //     console.log(`Welcome ${name}!`);
+        // }
+        // function sendEmail(name) {
+        //     console.log(`E-mail sended to ${name}`);
+        // }
+        // registerUser("Paweł", welcomeUser);
+        // registerUser("Paweł", sendEmail);
+
+    </script>
+    <script>
+    //     function createMultiplayer(factor) {
+    //         return function(number) {
+    //             return number * factor;
+    //     }
+    // };
+    // const double = createMultiplayer(2);
+    // const tripple = createMultiplayer(3);
+
+    // console.log(double(5));
+    // console.log(tripple(5));
+    </script>
+    
+
+</body>
+</html>
